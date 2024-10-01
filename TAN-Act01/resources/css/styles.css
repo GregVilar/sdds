@@ -1,0 +1,92 @@
+td {
+    padding: 10px; /* Adjust as needed */
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+.card {
+    background-color: #333;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.forms .form-group {
+    padding: 15px; /* Adjust as needed */
+}
+
+.pagination-container {
+    clear: both;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center; /* Center the pagination */
+}
+
+/* Target the page-item class */
+.page-item {
+    margin: 0 5px; /* Add some margin between page items */
+}
+
+/* Target the page-link class */
+.page-link {
+}
+
+.forms{
+    background-color: #333;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    height: auto;
+    min-height: 300px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.forms form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input[type="text"] {
+    font-size: 20px;
+}
+
+textarea {
+    min-width: 300px;
+    min-height: 100px;
+}
+
+button.btn {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+}
+
+button.btn:hover {
+    background-color: #0056b3;
+    cursor: pointer;
+}
